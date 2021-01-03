@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: white;
+}
+
+.main-header {
+    background-color: hsl(217, 28%, 15%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+.main-header .logo-container {
+    width: 50%;
+}
+.main-header .logo-container img {
+    display: block;
+    height: 40px;
+}
+.main-nav {
+    width: 50%;
+}
+.main-nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.intro-section {
+    background-color: hsl(217, 28%, 15%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro-section .img-container {
+    width: 75%;
+}
+.intro-section .img-container img {
+    display: block;
+    width: 100%;
+}
+
+.intro-content {
+    text-align: center;
+}
+.intro-content h2 {
+    background-image: url(./images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    font-size: 2.5rem;
+}
