@@ -83,6 +83,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 5rem;
 }
 .chars .char {
     text-align: center;
@@ -101,4 +102,147 @@ body {
 }
 .chars .char p {
     font-size: 1.2rem;
+}
+
+.stay-productive img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+.stay-productive-content {
+    padding: 2rem;
+}
+.stay-productive-content h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.stay-productive-content p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+.stay-productive-content p:last-child {
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    color:hsl(176, 68%, 64%);
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.15rem;
+    width: 45%;
+}
+.stay-productive-content p:last-child img {
+    display: block;
+    margin-left: 5px;
+    margin-top: -5px;
+    width: 30px;
+}
+
+.testimonials {
+    padding: 3rem;
+    position: relative;
+}
+.testimonial {
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+}
+.testimonial:first-child::before {
+    content: "";
+    background-image: url(./images/bg-quotes.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    top: 1rem;
+}
+.testimonial > p {
+    margin-bottom: 2rem;
+}
+.testimonial footer {
+    display: flex;
+}
+.testimonial footer img {
+    border-radius: 100%;
+    width: 35px;
+}
+.testimonial footer p {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+.testimonial footer p span {
+    font-size: 0.75rem;
+}
+
+.early-access {
+    background-color: hsl(217, 28%, 15%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+    text-align: center;
+}
+.early-access h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.early-access p {
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+}
+.early-access input {
+    border: none;
+    border-radius: 5rem;
+    height: 4rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+}
+.early-access button {
+    background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    border: none;
+    border-radius: 5rem;
+    color: white;
+    font-size: 1.25rem;
+    height: 4rem;
+}
+
+.main-footer {
+    background-color: hsl(216, 53%, 9%);
+    padding: 3rem;
+}
+.main-footer > img {
+    margin-bottom: 4rem;
+}
+.main-footer > div {
+    display: flex;
+    margin-bottom: 1rem;
+}
+.main-footer > div img {
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+.main-footer > div p {
+    font-size: 1.25rem;
+    margin-left: 1rem;
+    width: 90%;
+}
+
+.footer-nav {
+    margin-top: 5rem;
+}
+.footer-nav ul {
+    list-style: none;
+}
+.footer-nav ul li {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.footer-nav ul li:nth-child(4) {
+    margin-bottom: 4rem;
 }
