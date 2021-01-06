@@ -32,6 +32,9 @@ body {
     list-style: none;
 }
 
+.main-content{
+    padding-bottom: 20rem;
+}
 .intro-section {
     background-color: hsl(217, 28%, 15%);
     display: flex;
@@ -176,16 +179,21 @@ body {
     font-size: 0.75rem;
 }
 
+#early-access {
+    position: relative;
+}
 .early-access {
     background-color: hsl(217, 28%, 15%);
     border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
     display: flex;
     flex-direction: column;
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
     padding: 2.5rem 1.5rem 2.5rem 1.5rem;
     text-align: center;
+    position: absolute;
+    top: 5rem;
+    left: 5%;
 }
 .early-access h2 {
     font-size: 1.75rem;
@@ -214,6 +222,7 @@ body {
 .main-footer {
     background-color: hsl(216, 53%, 9%);
     padding: 3rem;
+    padding-top: 20rem;
 }
 .main-footer > img {
     margin-bottom: 4rem;
